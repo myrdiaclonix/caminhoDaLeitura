@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/main.js"></script>
+    <title>Caminho da leitura</title>
+</head>
+<body>
+    <nav>
+        <a id="nav-Livros" onclick="changeView(this.id)">Livros</a>
+        <a id="nav-Regras" onclick="changeView(this.id)">Regras</a>
+    </nav>
+    <article id="tab-Livros" class="hide show">
+        <table id="main-table">
+            <tr><th>Nome</th><th>Autor</th><th>Editora</th><th>Vez</th><th>Ano</th></tr>
+            <tr><td>Crime e Castigo</td><td>Fiódor Dostoiévski</td><td>Martin Claret</td><td>Primeira</td><td>2020</td></tr>
+            <tr><td>A Flecha de Fogo</td><td>Leonel Caldela</td><td>Jambô</td><td>Primeira</td><td></td></tr>
+            <tr><td>O médico e o monstro & O ladrão de corpos</td><td>Robert Louis Stevenson</td><td>Nova Fronteira</td><td>Primeira</td><td></td></tr>
+            <tr><td>Vença</td><td>Frank Ian Luntz</td><td>Alta Books</td><td>Primeira</td><td></td></tr>
+            <tr><td>Fundação</td><td>Isaac Asimov</td><td>Aleph</td><td>Primeira</td><td></td></tr>
+            <tr><td>Nas montanhas da loucura</td><td>Howard Phillips Lovecraft</td><td>Nova Fronteira</td><td>Primeira</td><td>2021</td></tr>
+            <tr><td>Fundação e Império</td><td>Isaac Asimov</td><td>Aleph</td><td>Primeira</td><td></td></tr>
+            <tr><td>A volta do parafuso</td><td>Henry James</td><td>Nova Fronteira</td><td>Primeira</td><td></td></tr>
+            <tr><td>Segunda Fundação</td><td>Isaac Asimov</td><td>Aleph</td><td>Primeira</td><td></td></tr>
+            <tr><td>A arte da guerra</td><td>Sun Tzu</td><td>Jardim dos Livros</td><td>Primeira</td><td></td></tr>
+            <tr><td>Duna</td><td>Frank Herbert</td><td>Aleph</td><td>Primeira</td><td></td></tr>
+            <tr><td>Me chame pelo seu nome</td><td>André Aciman</td><td>Intrínseca</td><td>Primeira</td><td></td></tr>
+            <tr><td>A revolução dos bichos</td><td>George Orwell</td><td>Biblioteca Azul</td><td>Primeira</td><td></td></tr>
+            <tr><td>Fahrenheit 451</td><td>Ray Bradbury</td><td>Globo</td><td>Primeira</td><td></td></tr>
+            <tr><td>1984</td><td>George Orwell</td><td>Biblioteca Azul</td><td>Primeira</td><td></td></tr>
+            <tr><td>Sprint</td><td>Jake Knapp, John Zeratsky, Braden Kowitz</td><td>Intrínseca</td><td>Primeira</td><td>2022</td></tr>
+            <tr><td>O Nome do Vento</td><td>Patrick Rothfuss</td><td>Arqueiro</td><td>Primeira</td><td></td></tr>
+        </table>
+    </article>
+    <article id="tab-Regras" class="hide">
+        <ul style="margin-block-start:0em;margin-block-end:0em;">
+            <li>Ler cada livro da lista duas vezes ou mais.</li>
+            <li>Uma nova leitura de um mesmo livro não deve acontecer antes de quatro outras leituras.</li>
+            <li>Não ler uma sequência de livros (um par de livros, um depois do outro) de um mesmo autor.</li>
+            <li>Não repetir uma sequência de livros.</li>
+            <li>Para cada livro lido 2 vezes ou mais, uma resenha deve ser feita.</li>
+        </ul>
+    </article>
+</body>
+</html>

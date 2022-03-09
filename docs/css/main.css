@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(160, 180, 255);
+    padding: 1em;
+    margin: 0em;
+    font-family: monospace;
+}
+nav {
+    margin-bottom: 1em;
+    text-align: center;
+}
+nav a {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 1em;
+    text-decoration: none;
+}
+nav a:link {
+    color: black;
+}
+nav a:visited {
+    color: black;
+}
+nav a:hover {
+    color: white;
+}
+nav a:active {
+    color: black;
+}
+article {
+    background-color: rgb(170, 190, 255);
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+#main-table th, #main-table td {
+    padding: 0.25em 0.5em;
+}
