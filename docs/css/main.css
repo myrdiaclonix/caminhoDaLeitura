@@ -1,8 +1,8 @@
 body {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(255, 255, 255);
     padding: 1em;
     margin: 0em;
-    font-family: monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 nav {
     margin-bottom: 1em;
@@ -27,8 +27,8 @@ nav a:active {
     color: black;
 }
 article {
-    background-color: rgb(255, 175, 175);
-    border: 0.2em solid black;
+    background-color: rgb(255, 211, 211);
+    
     border-radius: 1em;
     margin: 1em;
     padding: 1em;
